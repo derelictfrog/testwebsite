@@ -1,0 +1,165 @@
+body{
+font-family:"Helvetica","Arial","Sans-serif";
+/*background-color:rgb(54, 52, 51); - lighter grey */
+/*colors from: http://plasticmind.com/*/
+background-color:rgb(46,44,43);
+font-size: 14px;
+}
+
+/*
+body#home a#navhome,
+body#news a#navnews,
+body#contact a#navcontact,
+body#about a#navabout
+{
+color:#fff;
+background-color:#FF6700; 
+nice warm orange
+}
+*/
+
+div#container
+{ 
+width:700px;
+height:800px;
+margin: 0 auto;
+}
+
+div#header
+{
+background-color:rgb(46,44,43);
+/*background-color:#000000;*/
+color:#ffffff;
+/*padding:1px 0px 1px 0px;*/
+text-align:center;
+}
+
+div#nav
+{
+background-color:rgb(46,44,43);
+/*background-color:#000000;*/
+padding: 5px 0;
+height:16px;
+float:left;
+}
+
+#nav ul
+{
+padding: 5px 0;
+margin: 0px;
+display: inline;
+height:30px;
+}
+
+#nav ul li
+{
+padding: 0px;
+margin: 0px;
+list-style: none;
+/*display: inline; same as float below*/
+float:left;
+}
+
+#nav ul li a:link, #nav ul li a:visited
+{
+font-weight:bold;
+color:rgb(0, 255, 213);
+padding:5px 20px 5px 20px;
+/*margin:0px 0px 0px -4px;*/
+text-decoration:none;
+display:inline;
+}
+
+#nav ul li a:hover
+{
+color:rgb(46,44,43);
+background-color:rgb(0, 255, 213);
+}
+
+#nav ul li a.active, #nav ul li a.active:hover
+{
+color:#fff;
+background-color:#FF6700;
+}
+
+div#menu
+{
+background-color:rgb(46,44,43);
+height:100%;
+width:100px;
+float:right;
+}
+
+#menu ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+#menu li a:link, #menu li a:visited
+{
+display:block;
+font-weight:bold;
+color:rgb(0, 255, 213);
+text-align:left;
+padding:4px;
+text-decoration:none;
+}
+
+#menu li a img
+{
+display:none;
+}
+
+#menu li a:hover img
+{
+display:block;
+float: right;
+}
+
+div#content
+{
+background-color:rgb(46,44,43);
+color:#ffffff;
+height:100%;
+width:590px;
+float:left;
+}
+
+div#content h4
+{
+
+}
+
+div#content p
+{
+color:rgb(163, 162, 161);
+}
+
+div#content p:first-letter
+{
+color:rgb(0, 255, 213);
+}
+
+div#footer
+{
+background-color:rgb(46,44,43);
+color:rgb(0, 255, 213);
+clear:both;
+text-align:center;
+margin:0px 0px 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
